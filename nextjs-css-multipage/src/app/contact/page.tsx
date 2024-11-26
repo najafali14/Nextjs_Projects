@@ -1,5 +1,5 @@
 import Image from "next/image"
-import hbg from "../../public/cbg.png"
+import hbg from "../../../public/cbg.png"
 export default function Contact(){
 
   return (
