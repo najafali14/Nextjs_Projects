@@ -1,5 +1,5 @@
 import Image from "next/image"
-import hbg from "../../public/abg.png"
+import hbg from "../../../public/abg.png"
 export default function About(){
 
   return (
