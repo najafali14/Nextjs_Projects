@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+body{
+background-color:#1E3E62;
+}
+
+.main{
+display:flex;
+padding-left:5%;
+}
+.name{
+font-size:bold;
+font-size:100px;
+font-style:italic;
+color:yellow;
+
+}
+.intro{
+font-size:bold;
+font-size:30px;
+padding-left:20px;
+color:yellowgreen;
+
+
+}
+ul{
+  list-style-type: circle;
+}
+button{
+margin-top:2%;
+padding:7px;
+margin-left:10%;
+}
+.s{
+color:greenyellow;
+font-size:bold;
+border-style:solid;
+border-color:black;
+border-width:2px;
+border-radius:10px;
+
+
+}
+.p{
+color:greenyellow;
+font-size:bold;
+border-style:solid;
+border-color:black;
+border-width:2px;
+border-radius:10px;
+}
+.ab{
+color:greenyellow;
+font-size:bold;
+border-style:solid;
+border-color:black;
+border-width:2px;
+border-radius:10px;
+}
+.c{
+color:greenyellow;
+font-size:bold;
+border-style:solid;
+border-color:black;
+border-width:2px;
+border-radius:10px;
+}
+
+.about{
+margin-top:4%;
+/* background-color:grey; */
+}
+/* one media query */
+@media only screen and (max-width: 800px) {
+.name{
+font-size:bold;
+font-size:100px;
+font-style:italic;
+color:yellow;
+}
+.intro{
+font-size:bold;
+font-size:30px;
+padding-left:20px;
+color:yellowgreen;
+}
+  .main{
+  display:grid;
+  padding-left:5%;
+  }
+}
+
