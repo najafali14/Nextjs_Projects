@@ -1,5 +1,5 @@
 import Image from "next/image"
-import hbg from "../public/hbg.png"
+import hbg from "../../public/hbg.png"
 export default function Home(){
   return (
     <div>
