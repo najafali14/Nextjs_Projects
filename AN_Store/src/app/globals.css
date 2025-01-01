@@ -14,16 +14,8 @@
   }
 }
 
-/* globals.css */
 body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #f9fafb;
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
 }
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
-}
-
