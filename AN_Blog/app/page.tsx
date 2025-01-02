@@ -83,7 +83,7 @@ const BlogPage: React.FC = () => {
       </header>
 
       {/* Hero Section */}
-      <section id="home" className="bg-secondary text-white py-16 text-center">
+      <section id="home" className="bg-secondary text-black py-16 text-center">
         <h2 className="text-4xl font-bold">Welcome to My Blog</h2>
         <p className="text-lg mt-2">Explore the latest reviews and insights into the tech world.</p>
       </section>
