@@ -60,7 +60,7 @@ const HomePage: React.FC = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-secondary text-white py-16 text-center">
+      <section className="bg-secondary text-black py-16 text-center">
         <h2 className="text-4xl font-bold">Explore Our Latest Collection</h2>
         <p className="text-lg mt-2">Find products that match your lifestyle.</p>
         <button
